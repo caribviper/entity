@@ -68,6 +68,14 @@ export abstract class Entity implements IEntity {
   }
 
   /**
+   * Force an entity into a transient state
+   */
+  public makeTransient() {
+    this._id = '';
+    this._rev = '';
+  }
+
+  /**
    * Creates a Unique id based on the data passed
    * @param identifiers Data relevant for creating the id 
    */
