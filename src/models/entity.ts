@@ -13,6 +13,8 @@ export interface IEntity {
   type: string;
 }
 
+//export interface IEn
+
 
 export interface IEntityMapBuilder<T extends Entity> {
   new(): T;
@@ -148,11 +150,9 @@ export abstract class Entity implements IEntity {
     return !this.isNotTransient(entity);
   }
 
-  public static mapToEntity(obj: any) : Entity {
+  public static mapToEntity(obj: any | any[]) : Entity | Entity[] {
+    if(obj instanceof Array)
+      return obj as Entity[];
     return obj as Entity;
   }
-}
-
-export class EntityFactory {
-
 }
