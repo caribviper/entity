@@ -1,5 +1,5 @@
 {
-  "name": "caribviper-entities",
+  "name": "caribviper-entity",
   "version": "0.1.2",
   "description": "Allows the utilisation of entities",
   "main": "lib/index.js",
