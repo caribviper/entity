@@ -13,7 +13,7 @@ export interface IEntityMapFunction<T extends Entity> {
 export class EntityMaps {
 
   /**
-   * Executes the mapping function, resulting with a new entity with all 
+   * Executes the entity's mapping function, resulting with a new entity with all 
    * functions or the original entity on failure
    * @param entityMapBuilder Entity Class to be mapped
    * @param source Source entity to be mapped
@@ -23,7 +23,7 @@ export class EntityMaps {
   }
 
   /**
-   * Executes the mapping function for a set entities
+   * Executes the entity's mapping function for a set entities
    * @param entityMapBuilder Entity Class to be mapped
    * @param sources Array of entities to be mapped
    */

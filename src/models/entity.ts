@@ -13,9 +13,9 @@ export interface IEntity {
   type: string;
 }
 
-//export interface IEn
-
-
+/**
+ * Mapbuilder interface to support entity mapping
+ */
 export interface IEntityMapBuilder<T extends Entity> {
   new(): T;
   mapToEntity(obj: any) : T;
@@ -150,6 +150,10 @@ export abstract class Entity implements IEntity {
     return !this.isNotTransient(entity);
   }
 
+  /**
+   * Maps an object or an object array to an entity or entity array respectively
+   * @param obj Object to be mapped to new entity
+   */
   public static mapToEntity(obj: any | any[]) : Entity | Entity[] {
     if(obj instanceof Array)
       return obj as Entity[];
