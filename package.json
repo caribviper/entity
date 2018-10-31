@@ -11,7 +11,7 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "library",
-    "url": "https://dacobra.visualstudio.com/_git/caribviper-entities"
+    "url": "https://github.com/caribviper/entity"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
