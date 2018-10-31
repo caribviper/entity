@@ -9,6 +9,10 @@
   "author": "Kurtis Best <kurtis.best@gmail.com>",
   "license": "SEE LICENSE IN <licence.txt>",
   "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "library",
+    "url": "https://dacobra.visualstudio.com/_git/caribviper-entities"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
