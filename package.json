@@ -1,18 +1,36 @@
 {
-  "name": "caribviper-entity",
-  "version": "0.1.2",
+  "_from": "github:caribviper/entity",
+  "_id": "caribviper-entity@0.1.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/caribviper-entity",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "caribviper-entity@github:caribviper/entity",
+    "name": "caribviper-entity",
+    "escapedName": "caribviper-entity",
+    "rawSpec": "github:caribviper/entity",
+    "saveSpec": "github:caribviper/entity",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:caribviper/entity#e286f186106f171122c6ccf503f81b10ca0fbd09",
+  "_spec": "caribviper-entity@github:caribviper/entity",
+  "_where": "C:\\Projects\\eplanning\\server-online\\node_modules_private",
+  "author": {
+    "name": "Kurtis Best",
+    "email": "kurtis.best@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/caribviper/entity/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Allows the utilisation of entities",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Kurtis Best <kurtis.best@gmail.com>",
-  "license": "SEE LICENSE IN <licence.txt>",
-  "typings": "lib/index.d.ts",
-  "repository": {
-    "type": "library",
-    "url": "https://github.com/caribviper/entity"
-  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
@@ -22,5 +40,18 @@
     "pump": "^1.0.3",
     "tslint": "^5.10.0",
     "typescript": "^2.8.3"
-  }
+  },
+  "homepage": "https://github.com/caribviper/entity#readme",
+  "license": "SEE LICENSE IN <licence.txt>",
+  "main": "lib/index.js",
+  "name": "caribviper-entity",
+  "repository": {
+    "type": "library",
+    "url": "git+https://github.com/caribviper/entity.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.1.2"
 }
